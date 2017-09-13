@@ -5,7 +5,7 @@
         <reference name="content">
             <block type="helloworld/helloWorld"
                    name="test"
-                   template="tinyapps/helloworld/blocks/fancy_hello.phtml" />
+                   template="tinyapps/tinyapps/helloworld/blocks/fancy_hello.phtml" />
         </reference>
     </helloworld_index_index>
 
@@ -15,7 +15,7 @@
         <block
             type="page/html"
             name="root"
-            template="tinyapps/helloworld/fancy_hello.phtml"
+            template="tinyapps/tinyapps/helloworld/fancy_hello.phtml"
         />
     </helloworld_index_goodbye>
 </layout>
